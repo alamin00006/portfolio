@@ -5,3 +5,13 @@
     background-color: black;
     color: white;
 }
+form input, textarea {
+border-radius: 10px;
+}
+
+.submit {
+    font-size: 30px;
+    background-color: rgb(211, 23, 111);
+    border-radius: 20px;
+    color: white;
+}

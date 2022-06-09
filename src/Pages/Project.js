@@ -11,7 +11,7 @@ const Project = () => {
         AOS.init({duration:2000})
     }, [])
     return (
-        <div className='projects p-5'>
+        <div className='projects'>
             <div className='projectText pt-5'>
                 <h3>MY <span>PROJECTS</span></h3>
                 <hr />
@@ -24,7 +24,7 @@ const Project = () => {
              <div className='card-body'>
             <h5 className='card-title'> Machin Repair Parts</h5>
                 <p>This is Machin Repairs Part Website</p>
-                <a href="https://my-computer-store-9e4ae.web.app/" className='btn'>More Detail</a>
+                <a href="https://my-computer-store-9e4ae.web.app/" className='btn details-button'>MORE DETAIL</a>
             </div>
             </div>
            
@@ -35,7 +35,7 @@ const Project = () => {
              <div className='card-body'>
             <h5 className='card-title'> Machin Repair Parts</h5>
                 <p>This is Machin Repairs Part Website</p>
-                <a href="https://machine-parts.web.app/" className='btn'>More Detail</a>
+                <a href="https://machine-parts.web.app/" className='btn details-button'>MORE DETAIL</a>
             </div>
             </div>
            
@@ -47,7 +47,7 @@ const Project = () => {
              <div className='card-body'>
             <h5 className='card-title'> Machin Repair Parts</h5>
                 <p>This is Machin Repairs Part Website</p>
-                <a href="https://physical-medicine-specialist.web.app/" className='btn'>More Detail</a>
+                <a href="https://physical-medicine-specialist.web.app/" className='btn details-button'>MORE DETAIL</a>
             </div>
             </div>
            

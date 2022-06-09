@@ -1,0 +1,14 @@
+.projectText {
+    text-align: center;
+    }
+.projectText span {
+ color: rgb(211, 23, 111);
+ }
+
+ .details-button{
+    background-color: rgb(211, 23, 111) !important;
+    border-radius: 20px !important;
+    font-size: 20px !important;
+    padding: 20px !important;
+    color: white !important;
+ }

@@ -35,8 +35,12 @@ height: 100vh;
 .resume{
    
     background-color: rgb(211, 23, 111);
+    border-radius: 20px;
+    font-size: 20px;
+   
 }
 .resume a{
     text-decoration: none;
     color: white;
 }
+

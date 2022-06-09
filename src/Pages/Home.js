@@ -1,12 +1,9 @@
 import React from 'react';
 import '../Pages/Home.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
 
 import Typewriter from 'typewriter-effect';
 import alamin from '../images/DSC_0076-removebg-preview.png'
-import { Link } from 'react-router-dom';
+
 const Home = () => {
     return (
         <div className="w-100 home">
@@ -34,11 +31,12 @@ const Home = () => {
                                 I am a Front end Developer with 6 months experience
                             </p>
                             <div className="icons">
-                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
-                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
-                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a><br/>
-                          <button className='resume rounded'> <a href="https://drive.google.com/file/d/1m2qL9PiBGvZD9pJkwJMCcAAFFsygEzd1/view?usp=sharing" target='_blank' > Download Resume</a>  </button>
+                          <a href="https://github.com/alamin00006"> </a>
+                          <button className='resume p-3'> <a href="https://drive.google.com/file/d/1m2qL9PiBGvZD9pJkwJMCcAAFFsygEzd1/view?usp=sharing" target='_blank' >
+                              
+                          DOWNLOAD RESUME</a>  </button>
                            
+                         
                             </div>
                         </div>
                     </div>
