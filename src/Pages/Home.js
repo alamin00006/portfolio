@@ -10,8 +10,8 @@ const Home = () => {
     return (
         <div className="w-100 home">
             <div className="container">
-                <div className="row">
-                    <div className="col-12 col-md-6 col-lg-6">
+                <div className="row pt-5">
+                    <div className="col-12 col-md-6 col-lg-6 homeText">
                         <div>
                             <h3 className="welcome">WELCOME!
                             </h3>
@@ -33,14 +33,16 @@ const Home = () => {
                                 I am a Front end Developer with 6 months experience
                             </p>
                             <div className="icons">
-                           <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
-                           <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={['fab', 'google']} /></a>
+                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
+                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
+                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
+                          
                            
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-6 col-lg-6">
+                    <div className="col-12 col-md-6 col-lg-6 homeImage">
                         <img className='w-75' src={alamin} alt="Al Amin"></img>
                     </div>
                 </div>

@@ -1,0 +1,32 @@
+.home{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.homeText{
+    display: flex;
+    align-items: center;
+
+}
+.homeText h3{
+    color: rgb(225, 10, 178) !important;
+}
+.homeImage{
+    padding-top: 70px;
+}
+.icon a{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.icon a:hover{
+    color: rgb(225, 10, 178);
+}
+.icon:hover{
+    background-color: rgb(225, 10, 178);
+}
+@media screen and (min-width: 769px) {
+    .homeImage{
+        padding-left: 80px;
+    }
+}
