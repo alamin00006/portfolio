@@ -6,6 +6,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import Typewriter from 'typewriter-effect';
 import alamin from '../images/DSC_0076.JPG'
+import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div className="w-100 home">
@@ -19,7 +20,7 @@ const Home = () => {
                                <Typewriter
                                options={
                                    {
-                                       autoStart:true,
+                                      autoStart:true,
                                        loop: true,
                                        delay: 60,
                                        strings:['I AM A FRONT END DEVELOPER', 'I AM A MERN STACK DEVELOPER']
@@ -35,8 +36,8 @@ const Home = () => {
                             <div className="icons">
                           <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
                           <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
-                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a>
-                          
+                          <a href="https://github.com/alamin00006">    <FontAwesomeIcon icon={faCoffee} /></a><br/>
+                          <button className='resume rounded'> <a href="https://drive.google.com/file/d/1m2qL9PiBGvZD9pJkwJMCcAAFFsygEzd1/view?usp=sharing" target='_blank' > Download Resume</a>  </button>
                            
                             </div>
                         </div>
