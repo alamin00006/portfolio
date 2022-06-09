@@ -44,7 +44,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6 homeImage">
-                        <img className='w-100' src={alamin} alt="Al Amin"></img>
+                        <img src={alamin} alt="Al Amin"></img>
                     </div>
                 </div>
 
