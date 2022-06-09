@@ -1,10 +1,12 @@
 .home{
+background-image: url('../images/wp2758145.gif');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 }
 .homeText{
+    color: white;
     display: flex;
     align-items: center;
 

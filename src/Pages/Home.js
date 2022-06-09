@@ -5,7 +5,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 
 import Typewriter from 'typewriter-effect';
-import alamin from '../images/DSC_0076.JPG'
+import alamin from '../images/DSC_0076-removebg-preview.png'
 import { Link } from 'react-router-dom';
 const Home = () => {
     return (
@@ -44,7 +44,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-6 homeImage">
-                        <img className='w-75' src={alamin} alt="Al Amin"></img>
+                        <img className='w-100' src={alamin} alt="Al Amin"></img>
                     </div>
                 </div>
 
