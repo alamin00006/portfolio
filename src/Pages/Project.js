@@ -8,7 +8,7 @@ import SingleProject from './SingleProject';
 const Project = () => {
   const [projects, setProjects] = useState([])
   useEffect( () =>{
-      fetch('http://localhost:5000/projects')
+      fetch('https://powerful-forest-46766.herokuapp.com/projects')
       .then(res => res.json())
       .then(data => setProjects(data))
   }, [])

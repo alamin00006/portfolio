@@ -9,7 +9,7 @@ const ProjectDetails = () => {
    
     
     useEffect( () =>{
-        const url = `http://localhost:5000/projects/${productId}`;
+        const url = `https://powerful-forest-46766.herokuapp.com/projects/${productId}`;
         fetch(url)
         .then(res =>res.json())
         .then(data =>setProjects(data))
