@@ -1,10 +1,11 @@
 .navbar{
     background-color: black !important;
 }
+
 .navbar-brand{
     font-size: xx-large;
     font-weight: bolder;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(235, 14, 187) !important;
 }
 .navbar li{

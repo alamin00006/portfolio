@@ -1,0 +1,41 @@
+.images{
+    width:500px;
+    border: 2px solid rgb(211, 23, 111);
+    transition: 1s;
+}
+.images:hover{
+     background-color: rgb(211, 23, 111);
+     transform: scale(1.1);
+     cursor: pointer;
+    
+}
+.descripton {
+    border: 2px solid rgb(211, 23, 111);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 2s;
+   
+}
+.descripton a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid;
+    margin: 5px;
+    border-radius: 20px;
+}
+.project-title {
+    color: rgb(211, 23, 111);
+}
+.github a {
+    text-decoration: none;
+}
+
+.technology{
+    font-weight: 700;
+}
+

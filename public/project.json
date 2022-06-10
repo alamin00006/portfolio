@@ -1,0 +1,45 @@
+[
+  {
+    "picture": "https://i.ibb.co/drch8q0/machinpart.png",
+    "picture1":"https://i.ibb.co/3k9WB8K/2022-06-10-19-22-19.png",
+    "picture2":"https://i.ibb.co/zZvs4Nt/2022-06-10-19-22-39.png",
+    "picture3":"https://i.ibb.co/kM7y60X/2022-06-10-19-23-04.png",
+    "picture4":"",
+    "name": "Machin Repair Parts",
+    "shortDescription": " Machin Repairs Parst Available Web Application.\r\n",
+    "description": "Developed a MERN stack Manufacturer web app with user and admin dashboard functionality, Maintained 100% responsiveness for mobile users to view the web app, Controlled register and login system using google firebase authentication system .\r\n",
+    "technology":"Technology: React.js, Node.js, Express.js, MongoDB, Tailwind, Firebase, Heroku",
+    "liveSite":"https://machine-parts.web.app/",
+    "ClientSite":"https://github.com/alamin00006/manufacturer-website-client-side",
+    "ServerSite":"https://github.com/alamin00006/manufacturer-website-server-side"
+  },
+    {
+      "picture": "https://i.ibb.co/S5JZMN5/2022-06-09-23-56-28-Window.png",
+      "picture1":"https://i.ibb.co/4SQRV7T/2022-06-10-19-16-04-Window.png",
+      "picture2":"https://i.ibb.co/nbCt483/2022-06-10-19-17-22.png",
+      "picture3":"",
+      "picture4":"",
+      "name": "Physical Medicine Specialist",
+      "shortDescription": "This is indepentet Service Provider Web Application.\r\n",
+      "description": "Developed a Independent Services Provider web app with Manage Product add and Product delete,Maintained 100% responsiveness for mobile users to view the web app, Accomplished register and login system using google firebase authentication system.\r\n",
+      "technology":"Technology: React.js, React Router, Firebase Authentication",
+      "liveSite":"https://physical-medicine-specialist.web.app/",
+      "ClientSite":"https://github.com/alamin00006/independent-service-provider",
+      "ServerSite":""
+    },
+    {
+      "picture": "https://i.ibb.co/znrWNJH/computerstore.png",
+      "picture1":"https://i.ibb.co/FDqQL77/2022-06-10-19-19-55-Window.png",
+      "picture2":"https://i.ibb.co/rcHz5Gb/2022-06-10-19-20-20-Window.png",
+      "picture3":"",
+      "picture4":"",
+      "name": "Computer Store",
+      "shortDescription": "Computer Store Management Web Applicatin.\r\n",
+      "description":"Developed a MERN stack Warehouse Management web app with Manage Product add and Product delete,     Maintained 100% responsiveness for mobile users to view the web app, Controlled register and login system using google firebase authentication system.\r\n",
+      "technology":"Technology: React.js, Node.js, Express.js, MongoDB, Bootstrap, Firebase, Heroku",
+      "liveSite":"https://my-computer-store-9e4ae.web.app/",
+      "ClientSite":"https://github.com/alamin00006/warehouse-management-client-side",
+      "ServerSite":"https://github.com/alamin00006/warehouse-management-server-side"
+    }
+    
+  ]

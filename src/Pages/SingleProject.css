@@ -1,5 +1,6 @@
 .projects {
-    color: white;
+    background-color: black;
+   
     }
     hr {
         height: 2px;
@@ -7,19 +8,18 @@
     }
     .projectText {
     text-align: center;
-   
     }
-  
-    .projectText span {
-    color: rgb(211, 23, 111);
+    .projectText {
+    color:black;
     }
-  
+    .project-name{
+        color: black
+    }
     
     .card {
         transition: 2s;
     }
     .card:hover {
-     
         transform: scale(1.1);
         cursor: pointer;
     }
@@ -30,6 +30,17 @@
     .card-body a:hover {
       background-color: transparent;
       border: 1px solid rgb(211, 23, 111);
+    }
+    .detailsButton {
+        background-color: rgb(211, 23, 111);
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
   
 

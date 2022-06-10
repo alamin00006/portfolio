@@ -12,7 +12,9 @@ const Contact = () => {
     }
     return (
         <div className='text-center contact p-5'>
-            <h1 className='contactMe'>Contact Me</h1>
+           
+            <h1 id='contact' className='contactMe'>Contact Me</h1>
+            <hr />
       <form onSubmit={sendEmail}>
        
       <input className='my-1 w-50 p-2' placeholder='Your Name' type="text" name="name" id="" /><br />

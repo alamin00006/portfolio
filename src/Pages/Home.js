@@ -1,17 +1,16 @@
 import React from 'react';
 import '../Pages/Home.css'
-
 import Typewriter from 'typewriter-effect';
 import alamin from '../images/DSC_0076-removebg-preview.png'
 
 const Home = () => {
     return (
-        <div className="w-100 home">
+        <div className=" w-100 home">
             <div className="container">
-                <div className="row pt-5">
-                    <div className="col-12 col-md-6 col-lg-6 homeText">
+                <div className="home-container pt-5">
+                    <div className="homeText">
                         <div>
-                            <h3 className="welcome">WELCOME!
+                            <h3 className="welcome">WELCOME TO MY PROFILE!
                             </h3>
                             <h1>
                                <Typewriter
@@ -25,14 +24,12 @@ const Home = () => {
                                }
                                /> 
                             </h1>
-                            <p>
-                                I am a Front end Developer with 6 months experience
-                                I am a Front end Developer with 6 months experience
-                                I am a Front end Developer with 6 months experience
+                            <p className='fs-4'>
+                            I am a Front-End WEB Developer. I am working with React, Node.js, and MongoDB. I also have experience in developing static websites using HTML5, CSS3, and JavaScript (ES6). I am a quick learner. I believe in hard work and efficiency.
                             </p>
                             <div className="icons">
                           <a href="https://github.com/alamin00006"> </a>
-                          <button className='resume p-3'> <a href="https://drive.google.com/file/d/1m2qL9PiBGvZD9pJkwJMCcAAFFsygEzd1/view?usp=sharing" target='_blank' >
+                          <button className='resume p-3'> <a href="https://drive.google.com/file/d/1m2qL9PiBGvZD9pJkwJMCcAAFFsygEzd1/view?usp=sharing" target='_blank'>
                               
                           DOWNLOAD RESUME</a>  </button>
                            
@@ -41,7 +38,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-6 col-lg-6 homeImage">
+                    <div className="homeImage">
                         <img src={alamin} alt="Al Amin"></img>
                     </div>
                 </div>

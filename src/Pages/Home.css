@@ -5,6 +5,25 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 }
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media only screen and (max-width: 576px) {
+    .home-container {
+        display: grid;
+        grid-template-columns:1fr;
+        
+    }
+    .homeImage img{
+        width: 300px;
+    }
+   
+}
+.welcome {
+    font-weight: 700;
+}
 .homeText{
     color: white;
     display: flex;
@@ -14,8 +33,9 @@ height: 100vh;
 .homeText h3{
     color: rgb(225, 10, 178) !important;
 }
-.homeImage{
+.homeImage img{
     padding-top: 70px;
+    
 }
 .icon a{
     font-size: 20px;
@@ -27,11 +47,7 @@ height: 100vh;
 .icon:hover{
     background-color: rgb(225, 10, 178);
 }
-@media screen and (min-width: 769px) {
-    .homeImage{
-        padding-left: 80px;
-    }
-}
+
 .resume{
    
     background-color: rgb(211, 23, 111);
