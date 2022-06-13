@@ -16,7 +16,7 @@
     padding: 16px;
     font-size: 20px;
     border-radius: 20px;
-    transition: 2s;
+    
    
 }
 .descripton a{
@@ -27,6 +27,7 @@
     border: 2px solid;
     margin: 5px;
     border-radius: 20px;
+   
 }
 .project-title {
     color: rgb(211, 23, 111);
@@ -37,5 +38,21 @@
 
 .technology{
     font-weight: 700;
+}
+
+
+@media only screen and (max-width: 576px) {
+    
+    .descripton {
+        width: 100%; 
+        margin-left: 0px;
+        margin-right: 0px;
+        transition: 0s;
+    }
+
+    .images{
+        width:100%;
+    }
+   
 }
 

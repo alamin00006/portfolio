@@ -18,7 +18,7 @@ const ProjectDetails = () => {
 
 
     return (
-        <div>
+        <div className='container'>
             <h1 className='project-name text-center'>{oneProjects.name}
             </h1>
              <div className='container row'>
@@ -41,14 +41,16 @@ const ProjectDetails = () => {
              </h4>
         
              <div className='descripton'>
-             <p>
+             <p className='w-100'>
                  <h3 className='project-title'>{oneProjects.shortDescription}</h3>
                  {oneProjects.description}</p>
-                 <p className='my-5 technology'>{oneProjects.technology}</p>
+                 <p className='my-5 technology w-100'>{oneProjects.technology}</p>
                  <p>
-                 <a target='_blank' href={oneProjects.liveSite}>Live Site</a>
-                 <a target='_blank' href={oneProjects.ClientSite}>Client Site</a>
-                 <a target='_blank' href={oneProjects.ServerSite}>Server Site</a>
+              <div className='row '>
+              <a className='col-12 col-md-6 col-lg-4' target='_blank' href={oneProjects.liveSite}>Live Site</a>
+                 <a className='col-12 col-md-6 col-lg-4' target='_blank' href={oneProjects.ClientSite}>Client Site</a>
+                 <a className='col-12 col-md-6 col-lg-4' target='_blank' href={oneProjects.ServerSite}>Server Site</a>
+              </div>
 
                  </p>
              </div>
