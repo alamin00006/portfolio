@@ -16,3 +16,13 @@ border-radius: 10px;
     border-radius: 16px;
     color: white;
 }
+
+@media only screen and (max-width: 576px) {
+ .contact input{
+    width: 100% !important;
+  }
+  .contact textarea {
+    width: 100% !important;
+  }
+   
+}

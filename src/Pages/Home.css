@@ -5,22 +5,31 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 }
-.home-container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
 
 @media only screen and (max-width: 576px) {
-    .home-container {
-        display: grid;
-        grid-template-columns:1fr;
-        
+    .home {
+        height: auto;
+   
     }
-    .homeImage img{
-        width: 300px;
+    .homeText{
+ 
+    padding-top: 80px;
+    align-items: center;
+    
     }
+    .homeImage img {
+        width: 100%;
+     
+       }
    
 }
+/* @media only screen and (min-width: 577px) {
+    .homeImage {
+     text-align: center;
+    }
+   
+} */
+
 .welcome {
     font-weight: 700;
 }
@@ -33,8 +42,13 @@ height: 100vh;
 .homeText h3{
     color: rgb(225, 10, 178) !important;
 }
-.homeImage img{
-    padding-top: 70px;
+.homeImage {
+padding-top: 72px;
+
+}
+.homeImage{
+
+
     
 }
 .icon a{

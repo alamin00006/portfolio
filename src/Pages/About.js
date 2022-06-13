@@ -9,9 +9,9 @@ const About = () => {
             <div className="container">
                 <h1 id='about' className='text-center text-white aboutMe'>ABOUT <span >ME</span></h1>
                 <hr />
-                <div className="home-container pt-5">
+                <div className="home-container row pt-5">
 
-                <div className="homeImage">
+                <div className="homeImage col-12 col-md-6 col-lg-6">
                         <img src={alamin} alt="Al Amin"></img>
                     </div>
 

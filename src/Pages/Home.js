@@ -1,15 +1,16 @@
 import React from 'react';
 import '../Pages/Home.css'
 import Typewriter from 'typewriter-effect';
-import alamin from '../images/DSC_0076-removebg-preview.png'
+import alamin from '../images/DSC_0076-removebg-preview.png';
+
 
 const Home = () => {
     return (
         <div className=" w-100 home">
             <div className="container">
-                <div className="home-container pt-5">
-                    <div className="homeText">
-                        <div>
+                <div className="home-container row pt-5">
+                    <div className="homeText col-12 col-md-6 col-lg-6">
+                        <div className=''>
                             <h3 className="welcome">WELCOME TO MY PROFILE!
                             </h3>
                             <h1>
@@ -38,8 +39,8 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="homeImage">
-                        <img src={alamin} alt="Al Amin"></img>
+                    <div className="homeImage col-12 col-md-6 col-lg-6">
+                    <img src={alamin} class="rounded-0" alt="..."/>
                     </div>
                 </div>
 
